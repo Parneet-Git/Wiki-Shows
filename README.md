@@ -1,3 +1,20 @@
+# Movie App in React
+
+The site in live now at [Wiki Shows](https://wikishows.netlify.app/)
+
+![image](https://user-images.githubusercontent.com/78143141/209432157-99361e39-1288-483f-aa38-99167d52d7f7.png)
+![image](https://user-images.githubusercontent.com/78143141/209432184-6417d511-0022-4af3-9765-1cdbaba4f250.png)
+![image](https://user-images.githubusercontent.com/78143141/209432201-716ba640-6414-445e-9882-aad87c94d570.png)
+
+
+The data is being fetched from TMDB API using axios.\
+React hooks is being used in this app to manage the components state.\
+
+## UI
+Css Skeleton Cards used for lazy loading of cards.\
+Material-UI used for efficient building of website as it has React components.\
+UI inspiration taken from Awwwards website and dribbble.\
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
