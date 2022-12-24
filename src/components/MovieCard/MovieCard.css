@@ -1,0 +1,132 @@
+* {
+    transition: all 0.2s;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid var(--primary-light);
+    cursor: pointer;
+}
+
+.movie-card button{
+    background-color: transparent !important;
+}
+
+.poster-container {
+    overflow: hidden;
+}
+
+.poster {
+    width: 100%;
+    height: 300px;
+}
+
+.favorite-btn svg{
+    position: absolute;
+    margin-top: 17rem;
+    margin-left: 10.75rem;
+    scale: 1.2;
+    color: var(--primary-light);
+    filter: drop-shadow(0 0 2px var(--primary-dark));
+    z-index: 10;
+}
+
+.favorite-btn:hover svg{
+    color: rgb(255, 0, 81);
+    filter: drop-shadow(0 0 2px var(--primary-dark));
+}
+
+.card-info {
+    padding: 5px;
+}
+
+.title {
+    font-size: large;
+    display: block;
+    color: var(--blue-light);
+    text-align: center;
+}
+
+.subtitle {
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-card:hover {
+    background-color: var(--primary-light);
+    transform: translateY(-5px);
+}
+
+.movie-card:hover .poster {
+    scale: 1.1;
+
+}
+
+.movie-card:hover .card-info,
+.movie-card:hover .title {
+    color: var(--primary-dark);
+}
+
+.movie-card:hover .card-info {
+    background-color: var(--primary-light);
+}
+
+@media only screen and (max-width: 500px) {
+    .MuiContainer-root{
+        padding: 0 !important;
+    }
+    .movie-card{
+        background-color: var(--blue-dark);
+        width: 180px;
+    }
+    .movie-card .poster{
+        height: 250px;
+    }
+    .movie-card .title{
+        text-shadow: 0 0 10px var(--primary-dark);
+    }
+    .movie-card .favorite-btn svg{
+        margin-top: 14rem;
+        margin-left: 9.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .movie-card{
+        width: 160px;
+    }
+    .movie-card .poster{
+        height: 200px;
+    }
+    .movie-card .favorite-btn svg {
+        margin-top: 10.75rem;
+        margin-left: 8.25rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .movie-card {
+        width: 250px;
+    }
+
+    .movie-card .poster {
+        height: 250px;
+    }
+
+    .movie-card .card-info{
+        padding: 0.4rem;
+    }
+
+    .movie-card .card-info .title{
+        padding: 0.2rem 0;
+    }
+
+    .movie-card .favorite-btn svg {
+        margin-top: 13.75rem;
+        margin-left: 13.75rem;
+    }
+}

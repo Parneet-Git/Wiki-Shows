@@ -1,38 +1,69 @@
-.App {
+@import 'react-alice-carousel/lib/alice-carousel.css';
+
+:root {
+  --blue-light: rgb(0, 174, 213);
+  --blue-color: rgb(35, 132, 150);
+  --blue-dark: rgb(3, 53, 97);
+  --primary-color: rgb(93, 93, 93);
+  --primary-light: #e3e3e3;
+  --primary-dark: #1b1b1b;
+  --snow-white-color: #eee;
+  --scary-font: 'Creepster', cursive;
+  --bold-sans-font: 'Fredoka One', cursive;
+  --jelly-font: 'Frijole', cursive;
+  --cartoon-font: 'Nerko One', cursive;
+  --pure-cursive-font: 'Pacifico', cursive;
+  --normal-sans-font: 'Roboto', sans-serif;
+  --crime-font: 'Rubik Microbe', cursive;
+  --modern-font: 'Zen Dots', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--normal-sans-font);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  color: var(--primary-light);
+  background-color: var(--primary-dark);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.App{
+  padding: 4rem 0;
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--blue-light);
+}
+
+a{
+  text-decoration: none;
+}
+
+.page-title{
+  display: block;
+  margin: 1rem auto;
   text-align: center;
+  font-size: xx-large;
+  font-family: var(--normal-sans-font);
+  font-weight: bold;
+  border-radius: 100px;
+  color: var(--primary-dark);
+  padding: 0.4rem 1.6rem;
+  background-color: var(--primary-light);
+  width: max-content;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiChip-deletable{
+  background-color: var(--blue-light) !important;
 }

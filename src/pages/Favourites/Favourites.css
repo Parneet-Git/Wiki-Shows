@@ -1,0 +1,7 @@
+.favourites .favorite-btn svg{
+    color: rgb(255, 0, 81);
+}
+
+.favourites .favorite-btn svg:hover{
+    color: white;
+}

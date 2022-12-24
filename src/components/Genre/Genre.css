@@ -1,0 +1,23 @@
+.genre-container{
+    margin: 2rem 0;
+    margin-left: 10%;
+}
+
+.genres-container{
+    margin-right: 1rem;
+}
+
+select{
+    background-color: var(--primary-dark);
+    border: 3px solid var(--blue-color);
+    color: var(--primary-light);
+    font-size: medium;
+    padding: 0.4rem 0;
+    text-align: center;
+    border-radius: 7px;
+}
+
+select:active,
+select:focus{
+    outline: none;
+}

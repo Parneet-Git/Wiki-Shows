@@ -1,0 +1,8 @@
+.MuiBottomNavigation-root{
+    background-color: #0007 !important;
+    backdrop-filter: blur(20px);
+}
+
+.MuiBottomNavigationAction-root{
+    color: var(--primary-light) !important;
+}

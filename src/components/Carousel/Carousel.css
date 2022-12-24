@@ -1,0 +1,16 @@
+.carouselItem{
+    border-left: 2px solid var(--primary-color);
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    padding: 0 10px;
+}
+
+.carouselItem__img{
+    border-radius: 10px;
+}
+
+.carouselItem__txt{
+    text-align: center;
+}

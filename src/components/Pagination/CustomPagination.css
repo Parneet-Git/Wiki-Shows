@@ -1,0 +1,12 @@
+.MuiPagination-ul .MuiButtonBase-root,
+.MuiPaginationItem-root{
+    color: var(--primary-light) !important;
+    border-color: var(--blue-light);
+    margin: 0 0.2rem;
+}
+
+.MuiPaginationItem-page.Mui-selected{
+    background-color: var(--blue-light) !important;
+    color: var(--primary-dark) !important;
+    font-weight: bold;
+}

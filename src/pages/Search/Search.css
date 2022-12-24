@@ -1,0 +1,14 @@
+.search-container{
+    width: 90%;
+    display: flex;
+    margin: 16px auto;
+}
+
+.MuiTabs-root{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.MuiTab-wrapper{
+    font-size: small;
+}
