@@ -1,6 +1,6 @@
 # Movie App in React
 
-The site in live now at [Wiki Shows](https://wikishows.netlify.app/)
+The site in live now at <a href="https://wikishows.netlify.app/" target="_blank">Wiki Shows</a>
 
 ![image](https://user-images.githubusercontent.com/78143141/209432157-99361e39-1288-483f-aa38-99167d52d7f7.png)
 ![image](https://user-images.githubusercontent.com/78143141/209432184-6417d511-0022-4af3-9765-1cdbaba4f250.png)
